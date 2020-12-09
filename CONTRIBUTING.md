@@ -1,4 +1,4 @@
-# Contributing to github.py
+# Contributing Guidelines
 
 The following is a set of guidelines, not rules, for contributing to this project.
 
