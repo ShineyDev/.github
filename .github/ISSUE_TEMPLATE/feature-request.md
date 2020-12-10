@@ -6,19 +6,19 @@ about: Suggest a feature.
 <!-- Please read the contributing guidelines before opening this issue. -->
 
 
-### Description
+# Description
 <!-- What made you want to open this issue? -->
 
 
-### Current Solution
+## Current Solution
 <!-- Is there an alternative? -->
 
 
-### Ideal Solution
+## Ideal Solution
 <!-- This part separates an issue from a pull request, you write this in English, not code. -->
 
 
-### Additional Context
+## Additional Context
 <!-- Do you have anything to add to this? -->
 
 

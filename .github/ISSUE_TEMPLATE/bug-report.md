@@ -6,24 +6,28 @@ about: Report broken or incorrect behavior.
 <!-- Please read the contributing guidelines before opening this issue. -->
 
 
-### Description
+# Description
 <!-- What exactly is wrong and why? -->
 
 
-### Actual Behavior
+## Actual Behavior
 <!-- What really happened here? If you have a traceback, this is where you'd put it. -->
 
 
-### Expected Behavior
+## Expected Behavior
 <!-- What did you expect to happen here? What is different? -->
 
 
-### Reproduction Steps
+## Reproduction Steps
 <!-- Why did this happen? -->
 
 
-### Additional Context
+## Additional Context
 <!-- Do you have anything to add to this? -->
+
+
+## System Information
+<!-- Contributors may need to know your system information to reproduce this issue. -->
 
 
 ### Checklist
@@ -33,8 +37,3 @@ about: Report broken or incorrect behavior.
 - [ ] I have searched open issues for duplicates.
 - [ ] I have shown the entire traceback, if applicable.
 - [ ] I have removed any access tokens from display, if applicable.
-
-
-### System Information
-<!-- Contributors may need to know your system information to reproduce this issue. -->
-

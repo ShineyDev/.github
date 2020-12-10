@@ -18,8 +18,8 @@ The following is a set of guidelines, not rules, for contributing to this projec
 - The **expected behavior**. What did you expect to happen here? What is different?
 - Easy-to-follow **reproduction steps**. Why did this happen?
 - Any **additional context**. Do you have anything to add to this?
-- The **checklist**. All of the boxes should be checked before you open the issue.
 - Your **system information**. Contributors may need to know your system information to reproduce this issue.
+- The **checklist**. All of the boxes should be checked before you open the issue.
 
 
 ### Feature Request
