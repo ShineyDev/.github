@@ -30,7 +30,7 @@ about: Report broken or incorrect behavior.
 <!-- Contributors may need to know your system information to reproduce this issue. -->
 
 
-### Checklist
+## Checklist
 <!-- All of the boxes should be checked before you open the issue. -->
 <!-- Put an x inside [ ] to check it, like so: [x] -->
 

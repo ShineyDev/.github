@@ -22,7 +22,7 @@ about: Suggest a feature.
 <!-- Do you have anything to add to this? -->
 
 
-### Checklist
+## Checklist
 <!-- All of the boxes should be checked before you open the issue. -->
 <!-- Put an x inside [ ] to check it, like so: [x] -->
 
