@@ -3,8 +3,6 @@ name: Feature Request
 about: Suggest a feature.
 ---
 
-<!-- Please read the contributing guidelines before opening this issue. -->
-
 
 # Description
 <!-- What made you want to open this issue? -->
@@ -18,12 +16,8 @@ about: Suggest a feature.
 <!-- This part separates an issue from a pull request, you write this in English, not code. -->
 
 
-## Additional Context
-<!-- Do you have anything to add to this? -->
-
-
 ## Checklist
-<!-- All of the boxes should be checked before you open the issue. -->
 <!-- Put an x inside [ ] to check it, like so: [x] -->
 
-- [ ] I have searched open issues for duplicates.
+- [ ] I have read the [contributing guidelines](https://github.com/ShineyDev/.github/blob/main/CONTRIBUTING.md).
+- [ ] I have searched [open issues](../) for duplicates.
