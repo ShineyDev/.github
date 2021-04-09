@@ -2,4 +2,4 @@ blank_issues_enabled: false
 contact_links:
   - name: Join the discussion
     about: Discuss or get help with this repository.
-    url: "https://github.com/ShineyDev/.github/discussions"
+    url: https:../../discussions
