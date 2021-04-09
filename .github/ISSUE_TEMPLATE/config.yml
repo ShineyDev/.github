@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - about: Discuss or get help with this repository.
-    name: Join the discussion
-    url: ../../discussions
+  - name: Join the discussion
+    about: Discuss or get help with this repository.
+    url: "../../discussions"
