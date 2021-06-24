@@ -1,0 +1,15 @@
+groups:
+- name: Cynefin
+  labels:
+  - name: chaotic
+    description: There is no relationship between cause and effect.
+    color: pink+S10
+  - name: complex
+    description: The relationship between cause and effect is unpredictable.
+    color: pink+S5
+  - name: complicated
+    description: The relationship between cause and effect requires investigation and specific knowledge.
+    color: pink
+  - name: clear
+    description: The relationship between cause and effect is clear.
+    color: pink-S5

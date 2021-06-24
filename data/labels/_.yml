@@ -1,0 +1,60 @@
+inherit:
+- https://raw.githubusercontent.com/ShineyDev/.github/main/data/labels/colors.yml
+- https://raw.githubusercontent.com/ShineyDev/.github/main/data/labels/cynefin.yml
+
+groups:
+- name: Automation
+  color: white
+
+- name: Feedback
+  color: blue
+  labels:
+  - name: discussion
+    description: This is a discussion.
+  - name: question
+    description: This is a question.
+  - name: rfc
+    description: This is a request for comment.
+
+- name: Inactionable
+  color: gray
+  labels:
+  - name: duplicate
+    description: This already exists.
+  - name: invalid
+    description: This doesn't seem right.
+  - name: lacking
+    description: This is lacking information.
+  - name: wontfix
+    description: This will not be worked on.
+
+- name: Priority
+  labels:
+  - name: critical
+    description: This is release-blocking.
+    color: 0xE64545
+  - name: red+S10
+    description: This will be worked on in due time.
+    color: 0xE65C5C
+  - name: red+S5
+    description: This will be worked on in free time.
+    color: red
+  - name: low
+    description: This can be deferred.
+    color: red-S5
+
+- name: Type
+  color: purple
+  labels:
+  - name: bug
+    description: This describes or patches a bug.
+  - name: content
+    description: This describes or patches a bug.
+  - name: enhancement
+    description: This describes or implements an enhancement.
+  - name: feature
+    description: This describes or implements a new feature.
+  - name: incompatible
+    description: This implements an incompatible change.
+  - name: maintenance
+    description: This requests maintenance on or maintains the repository.
