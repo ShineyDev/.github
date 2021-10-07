@@ -1,10 +1,30 @@
 inherit:
 - https://raw.githubusercontent.com/ShineyDev/.github/main/data/labels/colors.yml
-- https://raw.githubusercontent.com/ShineyDev/.github/main/data/labels/cynefin.yml
 
 groups:
 - name: Automation
   color: white
+
+- name: Branch
+  color: cyan
+
+- name: Cynefin
+  labels:
+  - name: chaotic
+    description: There is no relationship between cause and effect.
+    color: pink+S10
+  - name: complex
+    description: The relationship between cause and effect is unpredictable.
+    color: pink+S5
+  - name: complicated
+    description: The relationship between cause and effect requires investigation and specific knowledge.
+    color: pink
+  - name: clear
+    description: The relationship between cause and effect is clear.
+    color: pink-S5
+
+- name: Environment
+  color: cyan
 
 - name: Feedback
   color: blue
@@ -32,29 +52,32 @@ groups:
   labels:
   - name: critical
     description: This is release-blocking.
-    color: 0xE64545
-  - name: red+S10
+    color: red+S10
+  - name: high
     description: This will be worked on in due time.
-    color: 0xE65C5C
-  - name: red+S5
+    color: red+S5
+  - name: medium
     description: This will be worked on in free time.
     color: red
   - name: low
     description: This can be deferred.
     color: red-S5
 
+- name: Status
+  color: orange
+
 - name: Type
   color: purple
   labels:
   - name: bug
-    description: This describes or patches a bug.
+    description: This requests a patch to or patches a bug.
   - name: content
-    description: This describes or patches a bug.
+    description: This requests changes to or changes content.
   - name: enhancement
-    description: This describes or implements an enhancement.
+    description: This requests or implements an enhancement.
   - name: feature
-    description: This describes or implements a new feature.
+    description: This requests or implements a new feature.
   - name: incompatible
-    description: This implements an incompatible change.
+    description: This requests or implements an incompatible change.
   - name: maintenance
     description: This requests maintenance on or maintains the repository.
