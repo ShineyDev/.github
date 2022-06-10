@@ -1,5 +1,5 @@
 groups:
 - name: Inactionable
   labels:
-  - name: api-bug
-    description: This bug exists in the API.
+  - name: bug-api
+    description: This bug exists in an API.
