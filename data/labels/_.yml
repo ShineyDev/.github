@@ -39,6 +39,9 @@ groups:
     description: The relationship between cause and effect is clear.
     color: pink-S5
 
+- name: Domain
+  color: cyan
+
 - name: Environment
   color: cyan
 
