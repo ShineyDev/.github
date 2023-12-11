@@ -67,6 +67,9 @@ groups:
   - name: wontfix
     description: This will not be worked on.
 
+- name: Module
+  color: cyan
+
 - name: Priority
   labels:
   - name: critical
