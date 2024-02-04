@@ -16,5 +16,10 @@ about: Report broken or incorrect behavior.
 <!-- What did you expect to happen here? What is different? -->
 
 
+## Ideal Solution
+<!-- This part separates an issue from a pull request, you write this in English, not code. -->
+<!-- If you're not sure, just N/A is fine -->
+
+
 ## Additional Information
 <!-- Why did this happen? What are the reproduction steps? What is your system information? -->
