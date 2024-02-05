@@ -106,3 +106,5 @@ groups:
     description: This requests or implements an incompatible change.
   - name: maintenance
     description: This requests maintenance on or maintains the repository.
+  - name: test
+    description: This requests changes to or changes tests.
