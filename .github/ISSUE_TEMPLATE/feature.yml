@@ -1,0 +1,53 @@
+name: Feature
+description: Use this form to propose a new feature.
+
+labels:
+- S:triage
+
+body:
+- type: checkboxes
+  id: checklist-start
+  attributes:
+    label: Checklist
+    options:
+    - label: I have checked that this feature is not already acknowledged in another open issue.
+      required: true
+    - label: I agree to abide by the project's [code of conduct](https://github.com/ShineyDev/.github/blob/main/CODE_OF_CONDUCT.md) and [contributing guidelines](https://github.com/ShineyDev/.github/blob/main/CONTRIBUTING.md).
+      required: true
+- type: textarea
+  id: summary
+  attributes:
+    label: Summary
+    description: Provide a simple introductory summary of the feature.
+  validations:
+    required: true
+- type: textarea
+  id: current-solution
+  attributes:
+    label: Current Solution
+    description: Is there an alternative?
+  validations:
+    required: true
+- type: textarea
+  id: ideal-solution
+  attributes:
+    label: Ideal Solution
+    description: This part separates an issue from a pull request. You write this in English, not code.
+  validations:
+    required: true
+- type: textarea
+  id: additional-information
+  attributes:
+    label: Additional Information
+    description: |
+      Why did this happen? What are the reproduction steps? What is your system information?
+      If you're not sure, leave this area blank.
+- type: checkboxes
+  id: checklist-end
+  attributes:
+    label: Checklist
+    options:
+    - label: I have verified that this feature aligns with the project's objective.
+      required: true
+    - label: I have reviewed my issue to ensure that it does not contain any confidential or private information.
+      required: true
