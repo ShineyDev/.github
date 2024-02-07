@@ -90,6 +90,8 @@ groups:
   labels:
   - name: stash
     description: This serves as a public stash.
+  - name: triage
+    description: This needs to be triaged.
 
 - name: Type
   color: purple
