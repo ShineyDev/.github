@@ -10,6 +10,8 @@ body:
   attributes:
     label: Checklist
     options:
+    - label: I have checked that this feature aligns with the project's objective.
+      required: true
     - label: I have checked that this feature is not already acknowledged in another open issue.
       required: true
     - label: I agree to abide by the project's [code of conduct](https://github.com/ShineyDev/.github/blob/main/CODE_OF_CONDUCT.md) and [contributing guidelines](https://github.com/ShineyDev/.github/blob/main/CONTRIBUTING.md).
@@ -47,7 +49,5 @@ body:
   attributes:
     label: Checklist
     options:
-    - label: I have verified that this feature aligns with the project's objective.
-      required: true
     - label: I have reviewed my issue to ensure that it does not contain any confidential or private information.
       required: true
