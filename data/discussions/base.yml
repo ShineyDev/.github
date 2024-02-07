@@ -1,0 +1,30 @@
+variables:
+  zwsp: \u200B  # NOTE: because for some reason discussion categories and sections are sorted alphabetically
+
+sections:
+- name: "{zwsp}Development"
+  emoji: sparkles
+  categories:
+  - name: Announcements
+    type: announcement
+    emoji: mega
+    description: View announcements from the developers of {repository_name}.
+  - name: Bikeshedding  # TODO: i still don't like this word
+    type: discussion
+    emoji: wrench
+    description: Discuss the development of {repository_name}.
+- name: Community
+  emoji: house_with_garden
+  categories:
+  - name: General
+    type: discussion
+    emoji: globe_with_meridians
+    description: Engage with the community.
+  - name: Help
+    type: question_answer
+    emoji: question
+    description: Ask the community for help.
+  - name: Showcase
+    type: discussion
+    emoji: raised_hands
+    description: Show off something you've created using {repository}.
