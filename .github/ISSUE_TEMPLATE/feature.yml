@@ -27,9 +27,9 @@ body:
   id: current-solution
   attributes:
     label: Current Solution
-    description: Is there an alternative?
-  validations:
-    required: true
+    description: |
+      Is there an alternative?
+      If there is no alternative or you're not sure, leave this area blank.
 - type: textarea
   id: ideal-solution
   attributes:
@@ -42,7 +42,7 @@ body:
   attributes:
     label: Additional Information
     description: |
-      Why did this happen? What are the reproduction steps? What is your system information?
+      Provide any additional information here.  # TODO: make this better aligned with bug.yml
       If you're not sure, leave this area blank.
 - type: checkboxes
   id: checklist-end
