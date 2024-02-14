@@ -24,19 +24,19 @@ body:
   validations:
     required: true
 - type: textarea
-  id: current-solution
-  attributes:
-    label: Current Solution
-    description: |
-      Is there an alternative?
-      If there is no alternative or you're not sure, leave this area blank.
-- type: textarea
   id: ideal-solution
   attributes:
     label: Ideal Solution
     description: This part separates an issue from a pull request. You write this in English, not code.
   validations:
     required: true
+- type: textarea
+  id: current-solution
+  attributes:
+    label: Current Solution
+    description: |
+      Is there an alternative?
+      If there is no alternative or you're not sure, leave this area blank.
 - type: textarea
   id: additional-information
   attributes:
