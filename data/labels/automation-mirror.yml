@@ -1,0 +1,5 @@
+groups:
+- name: Automation
+  labels:
+  - name: mirror
+    description: This is for a mirror.
