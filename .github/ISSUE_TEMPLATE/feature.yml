@@ -27,7 +27,7 @@ body:
   id: ideal-solution
   attributes:
     label: Ideal Solution
-    description: This part separates an issue from a pull request. You write this in English, not code.
+    description: This part separates an issue from a pull request. You write this in English, not code. Though, pseudo-code is acceptable.
   validations:
     required: true
 - type: textarea
@@ -42,7 +42,7 @@ body:
   attributes:
     label: Additional Information
     description: |
-      Provide any additional information here.  # TODO: make this better aligned with bug.yml
+      How would you like this feature to work? What need does this feature address? What improvements do you expect from this feature?
       If you're not sure, leave this area blank.
 - type: checkboxes
   id: checklist-end

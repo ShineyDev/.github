@@ -49,7 +49,7 @@ body:
   attributes:
     label: Ideal Solution
     description: |
-      This part separates an issue from a pull request. You write this in English, not code.
+      This part separates an issue from a pull request. You write this in English, not code. Though, pseudo-code is acceptable.
       If you're not sure, leave this area blank.
 - type: checkboxes
   id: checklist-end
