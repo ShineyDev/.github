@@ -1,6 +1,12 @@
 # Contributing Guidelines
 
-The following is a set of guidelines, not rules, for contributing to this project.
+The following is a set of guidelines for contributing to this project.
+
+
+## Zero Tolerance for AI
+
+The use of AI to generate contributions is strictly prohibited. This includes, but is not limited
+to: source code, documentation, issues, and pull requests.
 
 
 ## Issue Guidelines
@@ -13,22 +19,26 @@ The following is a set of guidelines, not rules, for contributing to this projec
 
 ### Bug Report
 
-- A concise **description** of the bug report. What exactly is wrong and why?
-- The **actual behaviour**. What really happened here? If you have a traceback, this is where you'd put it.
-- The **expected behavior**. What did you expect to happen here? What is different?
-- Easy-to-follow **reproduction steps**. Why did this happen?
-- Any **additional context**. Do you have anything to add to this?
-- Your **system information**. Contributors may need to know your system information to reproduce this issue.
-- The **checklist**. All of the boxes should be checked before you open the issue.
+- A concise **summary**. A simple introductory summary of the bug.
+- The **actual behavior**. What happened? If you have a traceback, this is where you'd put it.
+- The **expected behavior**. What did you expect to happen? What is different?
+- Optionally, any **additional information**. Why did this happen? What are the reproduction steps? What is your system information?
+- Optionally, an **ideal solution**. This part separates an issue from a pull request. You write this in English, not code. Though, pseudo-code is acceptable.
 
 
 ### Feature Request
 
-- A concise **description**. What made you want to open this issue?
-- The **current solution**. Is there an alternative?
-- The **ideal solution**. This part separates an issue from a pull request, you write this in English, not code.
-- Any **additional context**. Do you have anything to add to this?
-- The **checklist**. All of the boxes should be checked before you open the issue.
+- A concise **summary**. A simple introductory summary of the feature.
+- The **ideal solution**. This part separates an issue from a pull request. You write this in English, not code. Though, pseudo-code is acceptable.
+- Optionally, the **current solution**. Is there an alternative?
+- Optionally, any **additional information**. How would you like this feature to work? What need does this feature address? What improvements do you expect from this feature?
+
+
+### Other
+
+Please do not open issues for general questions or technical help. If you have a question, want to
+explore an idea that isn't ready to be a feature request, or simply want to show off something
+you've made: use discussions.
 
 
 ## Pull Request Guidelines
@@ -36,15 +46,13 @@ The following is a set of guidelines, not rules, for contributing to this projec
 <!-- A good example pull request can be found [here](...). -->
 
 - Do not open duplicate pull requests.
-- Try to focus on a single aspect -- If another pull request is necessary, create one.
+- Try to focus on a single aspect. If a second pull request is necessary, create one.
 - Try to follow the language's guidelines; for example, Python's [PEP-8](https://www.python.org/dev/peps/pep-0008/).
-- Please remember to test your PR before you mark it as ready for review.
+- Please remember to test your pull request before you mark it as ready for review.
 
-- A concise **description**. What does this PR do?
-- The **checklist**. All of the boxes should be checked before you mark the pull request as ready for review.
+- A concise **description**. What does this pull request do?
 
 
 ### Commit Guidelines
 
-- Use the imperative mood. (`implement ...` not `implemented ...`)
-- Reference issues and pull requests outside of the first line.
+- Try not to worry too much - your contribution will be merged via a squash merge.
